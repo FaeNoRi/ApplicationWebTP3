@@ -1,0 +1,4 @@
+#Fri Mar 23 12:29:40 CET 2018
+base.0=C\:\\Users\\Clem\\TP3\\AppTP3\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\Clem\\TP3\\AppTP3\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

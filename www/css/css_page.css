@@ -1,0 +1,397 @@
+/*////////// Global //////////*/
+
+body { 
+    font-family: Gentium Basic; 
+    margin: 0px;
+    background-image: url(../img/background.jpg);
+}
+
+input{
+    border-radius: 90px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*////////// Header //////////*/
+
+header{ 
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black;
+    background-color: #c9963d;
+    width: 100%;  
+    height: 125px;
+}
+
+.div-header{    
+    width:75%;
+    height: 125px;
+    margin:auto;
+    text-align: center;
+}
+
+.div-logo{
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    margin:auto;
+}
+
+.div-menu{
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.div-menu ul{
+    margin:0px;
+    margin-left: 10px;
+    padding: 0px;
+}
+
+.div-menu ul li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+img#logo{ 
+    display: inline-block;
+    height: 115px; 
+    width: 115px;
+}
+
+form.head-form{
+    display: inline-block;
+    text-align: right;
+    margin: auto;
+    padding-bottom: 2px;
+}
+
+div.recherche{  
+    margin: auto;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+div.recherche input{
+    margin:0px;
+    padding: 0px;
+    display: inline-block;
+    height: 20px;
+}
+
+div.recherche input .searchbar{
+    width:200px;
+}
+
+/*////////// Corps du site //////////*/
+
+.corps{
+    width: 75%;
+    margin: auto;
+    background-color: white;
+}
+
+div.galery{ 
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.galery li{
+    margin:auto;
+    text-align: right;
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+}
+
+#img1, #img2, #img3, #img4{
+    height: 175px;
+    width: 175px;
+}
+
+div.titre1{
+    padding:10px;
+}
+div.mapsform{
+    margin: auto;
+    width:100%;
+}
+
+div.maps{
+    display: inline-block;
+    margin-left: 2.5em;
+}
+
+div.inscription-form{
+    display: inline-block;
+    float: right; 
+    margin-right: 2.5em;
+}
+
+#Inscription{
+    margin: auto;
+}
+
+#Inscription input{
+    margin: 15px;
+    width: 175px;
+}
+
+img#banniere{
+    width:98%;
+    margin: auto;
+    height: 600px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+iframe{ margin : 35px; }
+
+/*////////// footer //////////*/
+
+footer{
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black;
+    background-color: #c9963d;
+    width: 100%;
+    text-align: center;
+}
+
+/*////////////////////// Responsive ////////////////////////////*/
+
+@media screen and (max-width: 750px) and (min-width: 240px){
+    body{
+        background: none;
+        text-align: center;
+    }
+    
+    /*/// Header ///*/
+    header{
+        height: 300px;
+        width: 100%;
+    }
+
+    div.div-header{
+        width: 100%;
+        height: 100%;
+        display: block;
+        
+    }
+    
+    div.div-logo{
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 175px;
+    }
+    
+    img#logo{ 
+        height: 175px; 
+        width: 175px;
+    }
+    
+    div.div-menu{
+        display: block;     
+        margin: auto;
+        width: 100%;
+    }
+    
+    .div-menu ul li{
+        display: block;
+        padding-top: 5px;
+        width: 100%;
+        padding-right: 0px;
+    }
+    
+    form.head-form{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    
+    div.recherche{
+        display: inline-block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    
+    div.recherche input .searchbar{
+        width: 100px;
+    }
+    /*/// Corps du site ///*/
+    
+    .corps{
+        width: 100%;
+    }
+    
+    div.titre1{
+        padding: 0px;
+    }
+    
+    div.galery{ 
+        width:50%;
+        text-align: center;
+    }
+    
+    .galery li{
+        padding: 0px;
+        margin: auto;
+    }
+    
+    div.maps{
+        margin:0px;
+    }
+    
+    div.inscription-form{
+        margin: 0px;
+        width: 100%;
+        float: none;
+        padding-bottom: 10px;
+    }
+    
+    #Inscription input{
+        display: block;
+        width: 90%;
+        
+    }
+    
+    #Inscription textarea{
+        display: block;
+        width: 85%;
+        margin: auto;
+    }
+    
+    img#banniere{
+        width: 95%;
+        height: 50%;
+        padding: 2px;
+    }
+    
+    #img1, #img2, #img3, #img4{
+        height: 200px;
+        width: 200px;
+    }
+    
+    iframe{
+        height:200px;
+        width:200px;
+        margin:auto;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 751px){
+        body{
+        background: none;
+        text-align: center;
+    }
+    
+    /*/// Header ///*/
+    header{
+        height: 250px;
+        width: 100%;
+    }
+
+    div.div-header{
+        width: 100%;
+        height: 100%;
+        display: block;
+        
+    }
+    
+    div.div-logo{
+        display: block;
+        margin: auto;
+        width: 100%;
+        height: 175px;
+    }
+    
+    img#logo{ 
+        height: 175px; 
+        width: 175px;
+    }
+    
+    div.div-menu{
+        display: inline-block;     
+        margin: auto;
+        padding-top: 15px;
+    }
+    
+    .div-menu ul li{
+        display: inline-block;
+        padding-top: 15px;
+        padding-right: 10px;
+    }
+    
+    form.head-form{
+        margin: auto;
+        padding-top: 15px;
+    }
+    
+    div.recherche{
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+    }
+    
+    div.recherche input .searchbar{
+        width: 100px;
+    }
+    /*/// Corps du site ///*/
+    
+    .corps{
+        width: 100%;
+    }
+    
+    div.galery{ 
+        width:65%;
+    }
+    
+    div.titre1{
+        padding: 0px;
+    }
+    
+    div.maps{
+        margin:0px;
+    }
+    
+    div.inscription-form{
+        margin: 0px;
+        width: 100%;
+        float: none;
+        padding-bottom: 10px;
+    }
+    
+    #Inscription input {
+        display: block;
+        width: 75%;
+        text-align: center;
+        margin: auto;
+        padding: 3px;
+    }
+    
+    #Inscription textarea{
+        display: block;
+        width: 85%;
+        margin: auto;
+    }
+    
+    img#banniere{
+        width: 95%;
+        height: 50%;
+        padding: 2px;
+    }
+    
+    #img1, #img2, #img3, #img4{
+        height: 200px;
+        width: 200px;
+    }
+    
+    iframe{
+        height:300px;
+        width:300px;
+        margin:auto;
+    }
+}
